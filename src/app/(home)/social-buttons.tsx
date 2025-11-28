@@ -42,7 +42,7 @@ export default function SocialButtons() {
 				<div className='absolute top-0 right-0 flex items-center gap-3 max-sm:static'>
 					{tertiaryShow && (
 						<motion.a
-							href='https://github.com/yysuni'
+							href='https://github.com/who0sy'
 							target='_blank'
 							initial={{ opacity: 0, scale: 0.6 }}
 							animate={{ opacity: 1, scale: 1 }}
@@ -71,7 +71,7 @@ export default function SocialButtons() {
 
 					<motion.button
 						onClick={() => {
-							navigator.clipboard.writeText('yysuni1001@gmail.com').then(() => {
+							navigator.clipboard.writeText('whoosys@gmail.com').then(() => {
 								toast.success('邮箱已复制到剪贴板')
 							})
 						}}
